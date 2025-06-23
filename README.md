@@ -65,5 +65,4 @@ npm run dev
 - After successful submission, you will be redirected to the /display page, where the full name, age, and extracted text are shown.
 
 
-
 - If an error occurs, an error message will be displayed with an option to return to the upload page.
