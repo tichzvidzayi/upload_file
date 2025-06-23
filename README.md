@@ -17,6 +17,7 @@ This project is a full-stack application designed to handle file uploads (PDFs a
 - Axios - promise-based http client for making API requests
 
 ## Project structure
+![image](https://github.com/user-attachments/assets/1a3d84ee-2b24-4450-85d5-582206942c60)
 
 ├── backend/                   # File-uploads backend (express.js)
 │   ├── .gitignore             # Git ignore rules for backend
