@@ -16,6 +16,31 @@ This project is a full-stack application designed to handle file uploads (PDFs a
 - React - JavaScript library for building interfaces
 - Axios - promise-based http client for making API requests
 
+## Project structure
+
+├── backend/                   # File-uploads backend (express.js)
+│   ├── .gitignore             # Git ignore rules for backend
+│   ├── eng.traineddata        # Tesseract OCR trained data
+│   ├── package.json           # Backend dependencies and scripts
+│   ├── package-lock.json      # Backend lockfile
+│   └── server.js              # Express server entry point
+│
+├── frontend/                  # File Upload Next.js frontend
+│
+├── public/                    # Public assets
+│
+├── src/app/                   # Main frontend application logic
+     ├── upload/page.js        # upload page
+     ├── display/page.js       # display/results page
+│
+├── .gitignore                 # Git ignore rules for root/frontend
+├── eslint.config.mjs         # ESLint configuration
+├── jsconfig.json             # JavaScript path mapping config
+├── next.config.mjs           # Next.js configuration
+├── package.json              # Frontend dependencies and scripts
+├── package-lock.json         # Frontend lockfile
+├── screenshots/              # Application screenshots
+├── README.md                 # Readme file (installation, folder structure etc)
 
 
 ## Installation
